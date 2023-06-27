@@ -9,4 +9,4 @@
 ----after deployment---------
 1.git add .
 2.git commit -m "changed header name in website"
-3.git push -u origin master
+3.git commit -u origin master
