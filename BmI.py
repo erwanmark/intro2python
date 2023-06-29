@@ -11,3 +11,4 @@ elif BMI >= 29.1 <34:
     print("overweight")
 elif BMI >=34:
     print("Obese")
+
