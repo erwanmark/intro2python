@@ -10,8 +10,3 @@ print(friends[2])
 print(friends[3])
 print(friends[4])
 print(friends[5])
-
-
-
-
-
