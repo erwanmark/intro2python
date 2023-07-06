@@ -7,7 +7,7 @@ db = SqliteDatabase(path.join(connection, "genesis.db"))
 
 
 # creating table inside db
-class User(Model):
+class Student(Model):
     name = CharField()
     gender = CharField(unique=True)
     studentcode = CharField()
@@ -18,4 +18,4 @@ class User(Model):
         database = db
 
 
-User.create_table(fail_silently=True)
+Student.create_table(fail_silently=True)
